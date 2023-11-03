@@ -125,3 +125,10 @@ tr:not(:first-child):hover.datatable {
   background-color: #dcfcfc;
   cursor: pointer;
 }
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0, .8);
+}
+a:hover{
+  color: rgb(0, 0, 0);
+}
