@@ -11,7 +11,13 @@ class Inform extends Component {
       <div className="border-bottom">
         <div className="float-left">
         {this.context.token === '' ?
-          <div><Link to='/login'>Login</Link> | <Link to='/signup'>Sign-up</Link> | <Link to='/active'>Active</Link></div>
+          <div>
+              <Link to="/login">Login</Link>
+              <span className="space">/</span>
+              <Link to="/signup">Sign-up</Link>
+              <span className="space">/</span>
+              <Link to="/active">Active</Link>
+            </div>
           :
           <div>Hello <b>{this.context.customer.name}</b> | <Link to='/home' onClick={() => this.lnkLogoutClick()}>Logout</Link> | <Link to='/myprofile'>My profile</Link> | <Link to='/myorders'>My orders</Link></div>
         }
