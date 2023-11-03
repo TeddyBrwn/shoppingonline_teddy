@@ -136,3 +136,7 @@ a:hover{
   margin-left: 1rem;
   margin-right: 1rem;
 }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button{
+  display: none;
+}
