@@ -28,7 +28,7 @@ class Menu extends Component {
         </div>
         <div className="float-right">
         <form className="search">
-          <input type="search" placeholder="Enter keyword" className="keyword" value={this.state.txtKeyword} onChange={(e) => { this.setState({ txtKeyword: e.target.value }) }} />
+          <input type="search" placeholder="Search shoppingonline.com" className="keyword" value={this.state.txtKeyword} onChange={(e) => { this.setState({ txtKeyword: e.target.value }) }} />
           <input type="submit" value="SEARCH" onClick={(e) => this.btnSearchClick(e)} />
         </form>
         </div>
