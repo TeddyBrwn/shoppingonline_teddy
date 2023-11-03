@@ -20,12 +20,12 @@ class Inform extends Component {
             </div>
           :
           <div>Hello <b>{this.context.customer.name}</b>
-                <span className="sub-space">/</span>
-            <Link to='/home' onClick={() => this.lnkLogoutClick()}>Logout</Link>
-                <span className="sub-space">/</span>
-            <Link to='/myprofile'>My profile</Link>
-                <span className="sub-space">/</span>
-            <Link to='/myorders'>My orders</Link></div>
+              <span className="sub-space">/</span>
+              <Link to='/home' onClick={() => this.lnkLogoutClick()}>Logout</Link>
+              <span className="sub-space">/</span>
+              <Link to='/myprofile'>My profile</Link>
+              <span className="sub-space">/</span>
+              <Link to='/myorders'>My orders</Link></div>
         }
       </div>
         <div className="float-right">
