@@ -1,4 +1,4 @@
-import axios from 'axios';
+vimport axios from 'axios';
 import React, { Component } from 'react';
 
 class Active extends Component {
@@ -26,7 +26,7 @@ class Active extends Component {
               </tr>
               <tr>
                 <td></td>
-                <td><input type="submit" value="ACTIVE" onClick={(e) => this.btnActiveClick(e)} /></td>
+                <td><input className="btn-active" type="submit" value="ACTIVE" onClick={(e) => this.btnActiveClick(e)} /></td>
               </tr>
             </tbody>
           </table>
