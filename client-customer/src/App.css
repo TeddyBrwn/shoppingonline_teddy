@@ -131,6 +131,7 @@ a{
 }
 a:hover{
   color: rgb(0, 0, 0);
+
 }
 .space{
   margin-left: 1rem;
@@ -140,6 +141,7 @@ a:hover{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
+
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button{
   display: none;
