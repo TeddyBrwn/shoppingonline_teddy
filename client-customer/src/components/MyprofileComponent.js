@@ -45,7 +45,7 @@ class Myprofile extends Component {
               </tr>
               <tr>
                 <td></td>
-                <td><input type="submit" value="UPDATE" onClick={(e) => this.btnUpdateClick(e)} /></td>
+                <td><input className="btn-myprofile" type="submit" value="UPDATE" onClick={(e) => this.btnUpdateClick(e)} /></td>
               </tr>
             </tbody>
           </table>
