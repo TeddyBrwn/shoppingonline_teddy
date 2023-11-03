@@ -41,7 +41,7 @@ class Signup extends Component {
               </tr>
               <tr>
                 <td></td>
-                <td><input type="submit" value="SIGN-UP" onClick={(e) => this.btnSignupClick(e)} /></td>
+                <td><input className="btn-signup" type="submit" value="SIGN-UP" onClick={(e) => this.btnSignupClick(e)} /></td>
               </tr>
             </tbody>
           </table>
