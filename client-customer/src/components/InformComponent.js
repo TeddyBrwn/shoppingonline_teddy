@@ -19,7 +19,13 @@ class Inform extends Component {
               <Link to="/active">Active</Link>
             </div>
           :
-          <div>Hello <b>{this.context.customer.name}</b> | <Link to='/home' onClick={() => this.lnkLogoutClick()}>Logout</Link> | <Link to='/myprofile'>My profile</Link> | <Link to='/myorders'>My orders</Link></div>
+          <div>Hello <b>{this.context.customer.name}</b>
+                <span className="sub-space">/</span>
+            <Link to='/home' onClick={() => this.lnkLogoutClick()}>Logout</Link>
+                <span className="sub-space">/</span>
+            <Link to='/myprofile'>My profile</Link>
+                <span className="sub-space">/</span>
+            <Link to='/myorders'>My orders</Link></div>
         }
       </div>
         <div className="float-right">
