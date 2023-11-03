@@ -29,7 +29,7 @@ class Login extends Component {
               </tr>
               <tr>
                 <td></td>
-                <td><input type="submit" value="LOGIN" onClick={(e) => this.btnLoginClick(e)} /></td>
+                <td><input className="btn-login" type="submit" value="LOGIN" onClick={(e) => this.btnLoginClick(e)} /></td>
               </tr>
             </tbody>
           </table>
