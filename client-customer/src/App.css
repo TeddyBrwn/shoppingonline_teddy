@@ -151,11 +151,11 @@ input[type="search"]:focus-visible
   outline: none;
   border-bottom: 1px solid rgb(0, 0, 0);
 }
-input[type="submit" i]{
+.submit-search{
   background-color: transparent;
   border: none;
   color: rgb(0, 0, 0, .5);
 }
-input[type="submit" i]:hover{
+.submit-search:hover{
   color: rgb(0, 0, 0);
 }
